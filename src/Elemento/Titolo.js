@@ -1,4 +1,4 @@
-import lista_oggetti from "../lista_oggetti";
+
 
 function Titolo (props) {
     return (

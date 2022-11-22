@@ -3,11 +3,16 @@ import Immagine from "./Immagine";
 import lista_oggetti from "../lista_oggetti";
 
 
-function Elemento (props) {
+function Elemento () {
     return (
         <div>
-            <Titolo nome={props.nome}/>
-            <Immagine immagine = {props.immagine}/>
+        {lista_oggetti.map ((elemento) =>
+        {
+            return (
+            <li>
+            <Titolo nome={elemento.nome} key={elemento.id} />
+            <Immagine immagine = {elemento.immagine} key={elemento.id}/>
+            </li>)})}
             </div>
     );
 }
