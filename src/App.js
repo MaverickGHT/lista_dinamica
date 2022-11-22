@@ -1,8 +1,9 @@
+import Lista from "./Lista";
 
 function App() {
   return (
     <div>
-      Ciao, siamo al corso
+      <Lista />
       </div>
   );
 }
