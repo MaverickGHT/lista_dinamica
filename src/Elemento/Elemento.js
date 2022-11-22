@@ -9,9 +9,9 @@ function Elemento () {
         {lista_oggetti.map ((elemento) =>
         {
             return (
-            <li>
-            <Titolo nome={elemento.nome} key={elemento.id} />
-            <Immagine immagine = {elemento.immagine} key={elemento.id}/>
+            <li key={elemento.id}>
+            <Titolo nome={elemento.nome} />
+            <Immagine immagine = {elemento.immagine} />
             </li>)})}
             </div>
     );

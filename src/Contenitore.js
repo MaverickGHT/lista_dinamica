@@ -2,11 +2,11 @@ import Elemento from "./Elemento/Elemento";
 
 
 
-function Contenitore (props) {
+function Contenitore () {
     return (
-        <ul>
+        
             <Elemento/>
-        </ul>
+        
     );
 }
 

@@ -6,7 +6,9 @@ function Lista() {
 
     
   return (
+    <ul>
     <Contenitore/>
+    </ul>
     
   );
 }
